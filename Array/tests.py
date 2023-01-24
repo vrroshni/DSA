@@ -1,11 +1,15 @@
-# --------------------------------- recursion -------------------------------- #
-def tri_recursion(k):
-  if(k > 0):
-    result = k + tri_recursion(k - 1)
-    print(result)
-  else:
-    result = 0
-  return result
+# # --------------------------------- recursion -------------------------------- #
+# def tri_recursion(k):
+#   if(k > 0):
+#     result = k + tri_recursion(k - 1)
+#     print(result)
+#   else:
+#     result = 0
+#   return result
 
-print("\n\nRecursion Example Results")
-tri_recursion(6)
+# print("\n\nRecursion Example Results")
+# tri_recursion(6)
+dic={
+  [2,3,4]:"hello"
+}
+print(dic)
